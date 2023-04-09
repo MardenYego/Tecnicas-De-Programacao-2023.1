@@ -6,6 +6,7 @@ public class Questao10 {
 
 	public static char[][] preencherMatriz(char matrizUsuario[][]) {
 		
+		
 		for (int i = 0; i < matrizUsuario.length; i++) {
 			for (int j = 0; j < matrizUsuario.length; j++) {
 				matrizUsuario[i][j]='*';
@@ -108,7 +109,7 @@ public class Questao10 {
 		for (int i = 0; i < matrizUsuario.length; i++) {
 			for (int j = 0; j < matrizUsuario.length; j++) {
 				if(i==j || j==matrizUsuario.length-1-i)
-					matrizUsuario[i][j]='&';
+					matrizUsuario[i][j]='0';
 			}
 		}
 		imprimirMatriz(matrizUsuario);
